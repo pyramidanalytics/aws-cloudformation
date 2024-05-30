@@ -1,0 +1,48 @@
+# Pyramid Marketplace AMI Ids
+# to be inserted into your CloudFormation templates via:
+# AMIID: !FindInMap 
+#   - AWSAMIRegionMap
+#   - !Ref 'AWS::Region'
+#   - '64'
+
+# 2023.11.130
+
+  AWSAMIRegionMap:
+    us-east-1:
+      '64': ami-0ace7877099f46123
+    us-east-2:
+      '64': ami-0b84e87af49ff3da0
+    us-west-1:
+      '64': ami-0767965c58481ad2c
+    us-west-2:
+      '64': ami-05a715abf35070dc9
+    ca-central-1:
+      '64': ami-0e9b0db99a4bd5365
+    eu-central-1:
+      '64': ami-0636b15b429642919
+    eu-west-1:
+      '64': ami-0fb2dfd82f210a627
+    eu-west-2:
+      '64': ami-0f5b37f4ca58615cb
+    eu-west-3:
+      '64': ami-08958e24f741611c7
+    eu-north-1:
+      '64': ami-0d23ad3eac1a4f4c9
+    eu-south-1:
+      '64': ami-08ba88e771b156f95
+    ap-southeast-1:
+      '64': ami-0a6f6fedd76e837b0
+    ap-southeast-2:
+      '64': ami-0d6cec1696ff601a4
+    ap-south-1:
+      '64': ami-0f8e08efcaf846225
+    ap-northeast-1:
+      '64': ami-0089fb21ddd69b3a3
+    ap-northeast-2:
+      '64': ami-04e8ed8cc97b2f128
+    me-south-1:
+      '64': ami-08b408769f513fad3
+    af-south-1:
+      '64': ami-04d5f924a06b12adb
+    sa-east-1:
+      '64': ami-0cf37168e8e72a1cc
